@@ -5,10 +5,14 @@ import Header from "./components/header/header";
 import Testimonials from "./components/testimonials/testimonials.jsx/testimonials";
 import Work from "./components/work/work";
 import $ from 'jquery';
+import ScrollReveal from "scrollreveal"
+
 import Partners from "./components/partners/partners";
 import MobileApp from "./components/mobile-app/mobile-app";
 
 function App () {
+
+  // Page loading animation
   $( window ).on( 'load', function () {
     if ( $( '.cover' ).length ) {
       $( '.cover' ).parallax( {
@@ -30,7 +34,7 @@ function App () {
   return (
     <div className="App">
       <div id="preloader">
-        <div class="jumper">
+        <div className="jumper">
           <div></div>
           <div></div>
           <div></div>

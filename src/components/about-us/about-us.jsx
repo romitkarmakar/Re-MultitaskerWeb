@@ -2,11 +2,11 @@ import './about-us.css';
 export default function About () {
     return (
         <>
-            <section class="section" id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                            <div class="center-heading">
+            <section className="section" id="about">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-8 offset-lg-2">
+                            <div className="center-heading">
                                 <h2>Who are<em> We</em></h2>
                                 <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio.
                                     Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.
@@ -21,7 +21,7 @@ export default function About () {
 
                         </div>
                     </div>
-                    <img src="img/grid.svg" class="about-grid" width="200" />
+                    <img alt="" src="../../assets/img/grid.svg" className="about-grid" width="200" />
 
                 </div>
             </section>
