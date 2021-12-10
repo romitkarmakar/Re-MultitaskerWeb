@@ -72,21 +72,21 @@ export default function Work () {
                             <div className="staggered-grid">
                                 <div className="picture-container">
                                     <a href="https://unsplash.com/@benchaccounting" target="_blank" rel="noreferrer noopener nofollow">
-                                        <span>Picture taken from Unsplash</span>
-                                        <b>@benchaccounting</b>
+                                        <span>lorem</span>
+                                        <b>@lorem</b>
                                     </a>
                                 </div>
                                 <div className="picture-container">
                                     <a href="https://unsplash.com/@jazminantoinette" target="_blank" rel="noreferrer noopener nofollow">
-                                        <span>Picture taken from Unsplash</span>
-                                        <b>@jazminantoinette</b>
+                                        <span>lorem</span>
+                                        <b>@lorem</b>
                                     </a>
                                 </div>
 
                                 <div className="picture-container">
                                     <a href="https://unsplash.com/@laurenmancke" target="_blank" rel="noreferrer noopener nofollow">
-                                        <span>Picture taken from Unsplash</span>
-                                        <b>@laurenmancke</b>
+                                        <span>lorem</span>
+                                        <b>@lorem</b>
                                     </a>
                                 </div>
 
