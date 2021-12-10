@@ -2,7 +2,7 @@ import About from "./components/about-us/about-us";
 import FAQ from "./components/faq/faq";
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
-import Testimonials from "./components/testimonials/testimonials.jsx/testimonials";
+import Testimonials from "./components/testimonials/testimonials";
 import Work from "./components/work/work";
 import $ from 'jquery';
 import ScrollReveal from "scrollreveal"

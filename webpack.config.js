@@ -1,23 +1,24 @@
 const path = require( 'path' );
 const webpack = require( 'webpack' );
-const HtmlWebpackPlugin = require( 'html-webpack-plugin' );
 
 module.exports = {
-    entry: path.join( __dirname, "src", "index.js" ),
+    entry: path.resolve(__dirname, './src/index.js'),
+    resolve: {
+        extensions: ['*', '.js', '.jsx']
+      },
     output: {
-        path: path.resolve( __dirname, "dist" ),
+        path: path.resolve(__dirname, './public'),
+        filename: 'bundle.js',
+    },
+    devServer: {
+        contentBase: path.resolve(__dirname, './public'),
     },
     module: {
         rules: [
             {
-                test: /\.?js$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader",
-                    options: {
-                        presets: [ '@babel/preset-env', '@babel/preset-react' ]
-                    }
-                }
+                use: ['babel-loader'],
             },
             {
                 test: /\.css$/i,
@@ -34,9 +35,6 @@ module.exports = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin( {
-            template: path.join( __dirname, "src", "index.html" ),
-        } ),
         new webpack.ProvidePlugin( {
             $: 'jquery',
             jQuery: 'jquery',
