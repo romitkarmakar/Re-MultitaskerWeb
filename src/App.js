@@ -3,7 +3,6 @@ import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 
 import $ from 'jquery';
-import ScrollReveal from "scrollreveal"
 
 
 import { Routes, Route } from "react-router-dom";
