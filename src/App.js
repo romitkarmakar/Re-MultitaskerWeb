@@ -1,14 +1,14 @@
-import About from "./components/about-us/about-us";
-import FAQ from "./components/faq/faq";
+
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
-import Testimonials from "./components/testimonials/testimonials";
-import Work from "./components/work/work";
+
 import $ from 'jquery';
 import ScrollReveal from "scrollreveal"
 
-import Partners from "./components/partners/partners";
-import MobileApp from "./components/mobile-app/mobile-app";
+
+import { Routes, Route } from "react-router-dom";
+import Category from "./components/categrory/category";
+import Home from "./pages/home";
 
 function App () {
 
@@ -41,12 +41,8 @@ function App () {
         </div>
       </div>
       <Header />
-      <Work />
-      <Partners />
-      <About />
-      <Testimonials />
-      <FAQ />
-      <MobileApp />
+     <Home />
+
       <Footer />
     </div>
   );
