@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Re-MultitaskerWeb/static/css/main.3fbc1804.chunk.css",
+    "main.js": "/Re-MultitaskerWeb/static/js/main.2d858446.chunk.js",
+    "main.js.map": "/Re-MultitaskerWeb/static/js/main.2d858446.chunk.js.map",
+    "runtime-main.js": "/Re-MultitaskerWeb/static/js/runtime-main.f601ce14.js",
+    "runtime-main.js.map": "/Re-MultitaskerWeb/static/js/runtime-main.f601ce14.js.map",
+    "static/css/2.f5967f29.chunk.css": "/Re-MultitaskerWeb/static/css/2.f5967f29.chunk.css",
+    "static/js/2.1eefa285.chunk.js": "/Re-MultitaskerWeb/static/js/2.1eefa285.chunk.js",
+    "static/js/2.1eefa285.chunk.js.map": "/Re-MultitaskerWeb/static/js/2.1eefa285.chunk.js.map",
+    "index.html": "/Re-MultitaskerWeb/index.html",
+    "static/css/2.f5967f29.chunk.css.map": "/Re-MultitaskerWeb/static/css/2.f5967f29.chunk.css.map",
+    "static/css/main.3fbc1804.chunk.css.map": "/Re-MultitaskerWeb/static/css/main.3fbc1804.chunk.css.map",
+    "static/js/2.1eefa285.chunk.js.LICENSE.txt": "/Re-MultitaskerWeb/static/js/2.1eefa285.chunk.js.LICENSE.txt",
+    "static/media/header.css": "/Re-MultitaskerWeb/static/media/Garden 05.0a60f1b2.jpg",
+    "static/media/work.css": "/Re-MultitaskerWeb/static/media/bg3.19527aa5.png",
+    "static/media/font-awesome.min.css": "/Re-MultitaskerWeb/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f601ce14.js",
+    "static/css/2.f5967f29.chunk.css",
+    "static/js/2.1eefa285.chunk.js",
+    "static/css/main.3fbc1804.chunk.css",
+    "static/js/main.2d858446.chunk.js"
+  ]
+}

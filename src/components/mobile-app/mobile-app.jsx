@@ -30,7 +30,7 @@ export default function MobileApp () {
                             data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
 
 
-                            <img src="../../assets/img/manphone.png" height="400" alt="mobile-app" />
+                            <img src="https://cdn-icons-png.flaticon.com/512/2920/2920369.png" height="400" alt="mobile-app" />
                         </div>
                     </div>
                 </div>

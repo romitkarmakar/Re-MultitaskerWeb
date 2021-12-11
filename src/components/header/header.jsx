@@ -17,7 +17,7 @@ export default function Header () {
                                     <img alt="" src="../../assets/logo/Multitasker-Logo-Final-Color.png" height="100" />
                                 </a>
 
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="nav navbar-nav ml-auto py-4 py-md-0">
                                         <li className="scroll-to-section"><a href="welcome" className="menu-item">Home</a></li>
                                         <li className="scroll-to-section"><a href="about" className="menu-item">About</a></li>

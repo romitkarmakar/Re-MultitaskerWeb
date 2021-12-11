@@ -18,7 +18,7 @@ export default function Work () {
                             <div className="features-item">
                                 <div className="features-icon">
                                     <h2>01</h2>
-                                    <img src="../../assets/img/truck.png" width="100" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/411/411712.png" width="100" alt="" />
                                     <h4>Moving</h4>
                                     <p>Curabitur pulvinar vel odio sed sagittis.Nam maximus ex diam, nec consectetur diam.</p>
                                     <a href="#testimonials" className="main-button">
@@ -32,7 +32,7 @@ export default function Work () {
                             <div className="features-item">
                                 <div className="features-icon">
                                     <h2>02</h2>
-                                    <img src="../../assets/img/basket.png" width="100" alt="" />
+                                    <img src="https://cdn-icons.flaticon.com/png/512/2954/premium/2954891.png?token=exp=1639234187~hmac=004eee051a7c2db1a6582ec87bf4db64" width="100" alt="" />
                                     <h4>Cleaning</h4>
                                     <p>Curabitur pulvinar vel odio sed sagittis.Nam maximus ex diam, nec consectetur diam.</p>
                                     <a href="#testimonials" className="main-button">
@@ -46,7 +46,7 @@ export default function Work () {
                             <div className="features-item">
                                 <div className="features-icon">
                                     <h2>03</h2>
-                                    <img src="../../assets/img/flowers.png" width="100" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2169/2169274.png" width="100" alt="" />
                                     <h4>Gardening</h4>
                                     <p>Curabitur pulvinar vel odio sed sagittis.Nam maximus ex diam, nec consectetur diam.</p>
                                     <a href="#testimonials" className="main-button">
@@ -66,8 +66,8 @@ export default function Work () {
                     <div className="row">
                         <div className="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
                             data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                            <img src="../../assets/img/grid2.svg" width="200" className="topgrid" alt="" />
-                            <img src="../../assets/img/grid2.svg" width="200" className="bottomgrid" alt="" />
+                            <img src="https://svgsilh.com/svg/26432-607d8b.svg" width="200" className="topgrid" alt="" />
+                            <img src="https://svgsilh.com/svg/26432-607d8b.svg" width="200" className="bottomgrid" alt="" />
 
                             <div className="staggered-grid">
                                 <div className="picture-container">
