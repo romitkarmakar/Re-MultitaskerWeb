@@ -52,13 +52,13 @@ export default function Partners () {
 
                                 <section className="customer-logos slider">
                                     <Slider ltr { ...settings }>
-                                        <div className="slide"><img alt="" src="https://cdn-icons.flaticon.com/png/512/3631/premium/3631153.png?token=exp=1639233697~hmac=e118c6c7517547dd7ee7513644fbc5bd" />
+                                        <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/1670/1670080.png" />
                                         <p>Lorem</p>
                                         </div>
-                                        <div className="slide"><img alt="" src="https://cdn-icons.flaticon.com/png/512/3045/premium/3045647.png?token=exp=1639233697~hmac=029076dd9509f9a30ff644ff88d253a5" />
+                                        <div className="slide"><img alt="https://cdn-icons-png.flaticon.com/512/1718/1718449.png" src="" />
                                         <p>Lorem</p>
                                         </div>
-                                        <div className="slide"><img alt="" src="https://cdn-icons.flaticon.com/png/512/5107/premium/5107888.png?token=exp=1639233815~hmac=202038a55ab5ef7b0bc5b17452712dda" />
+                                        <div className="slide"><img alt="https://cdn-icons-png.flaticon.com/512/2919/2919726.png" src="" />
                                         <p>Lorem</p>
                                         </div>
                                         <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/3238/3238681.png" />
@@ -70,10 +70,10 @@ export default function Partners () {
                                         <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/3048/3048343.png" />
                                         <p>Lorem</p>
                                         </div>
-                                        <div className="slide"><img alt="" src="https://cdn-icons.flaticon.com/png/512/4873/premium/4873868.png?token=exp=1639233999~hmac=99c9443d23f17a1669c50c13b63c5ac6" />
+                                        <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/2762/2762402.png" />
                                         <p>Lorem</p>
                                         </div>
-                                        <div className="slide"><img alt="" src="https://cdn-icons.flaticon.com/png/512/3098/premium/3098405.png?token=exp=1639233815~hmac=0fadf6d819f1f19640f09b4df5a841c7" />
+                                        <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/393/393651.png" />
                                         <p>Lorem</p>
                                         </div>
                                     </Slider>

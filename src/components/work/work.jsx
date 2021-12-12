@@ -32,7 +32,7 @@ export default function Work () {
                             <div className="features-item">
                                 <div className="features-icon">
                                     <h2>02</h2>
-                                    <img src="https://cdn-icons.flaticon.com/png/512/2954/premium/2954891.png?token=exp=1639234187~hmac=004eee051a7c2db1a6582ec87bf4db64" width="100" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2553/2553622.png" width="100" alt="" />
                                     <h4>Cleaning</h4>
                                     <p>Curabitur pulvinar vel odio sed sagittis.Nam maximus ex diam, nec consectetur diam.</p>
                                     <a href="#testimonials" className="main-button">
@@ -97,7 +97,7 @@ export default function Work () {
                         <div className="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
                             <ul>
                                 <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                                    <img src="img/armchair.png" width="100" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1198/1198317.png" width="100" alt="" />
                                     <div className="text">
                                         <h4>Furniture Assembly</h4>
                                         <p>
@@ -109,18 +109,18 @@ export default function Work () {
                                     </div>
                                 </li>
                                 <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
-                                    <img src="img/digital-campaign.png" width="100" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3141/3141181.png" width="100" alt="" />
                                     <div className="text">
                                         <h4>Marketing</h4>
                                         <p>
                                             lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            <h6>Know more <i className="fas fa-arrow-right"></i></h6>
+                                            <h6>Know more <em><i className="fas fa-arrow-right"></i></em></h6>
 
                                         </p>
                                     </div>
                                 </li>
                                 <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
-                                    <img src="img/man.png" width="100" alt="" />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995491.png" width="100" alt="" />
                                     <div className="text">
                                         <h4>Hand in a job</h4>
                                         <p>
