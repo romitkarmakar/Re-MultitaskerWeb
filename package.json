@@ -1,7 +1,7 @@
 {
   "name": "multitasker",
   "version": "0.1.0",
-  "homepage": "https://dhannsuman.github.io/Re-MultitaskerWeb",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.16.4",
