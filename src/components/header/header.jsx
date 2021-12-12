@@ -14,7 +14,7 @@ export default function Header () {
                         <div className="col-12">
                             <nav className="main-nav navbar navbar-expand-md navbar-light fixed">
                                 <a href="index.html" className="logo">
-                                    <img alt="" src="../../assets/logo/Multitasker-Logo-Final-Color.png" height="100" />
+                                <img src="https://i.ibb.co/gZhsVNv/Multitasker-Logo-Final-Color.png" alt="Multitasker-Logo-Final-Color" border="0" height="100"/>
                                 </a>
 
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
