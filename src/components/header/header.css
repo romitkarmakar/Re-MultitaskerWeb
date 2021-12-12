@@ -14,10 +14,7 @@ header
   right: 0px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
 }
-.logo{
-  background-image: url("../../assets/logo/Multitasker-Logo-Final-Color.png") !important;
-  background-size: cover;
-}
+
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
