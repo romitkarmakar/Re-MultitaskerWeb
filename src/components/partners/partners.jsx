@@ -55,10 +55,10 @@ export default function Partners () {
                                         <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/1670/1670080.png" />
                                         <p>Lorem</p>
                                         </div>
-                                        <div className="slide"><img alt="https://cdn-icons-png.flaticon.com/512/1718/1718449.png" src="" />
+                                        <div className="slide"><img src="https://cdn-icons-png.flaticon.com/512/1718/1718449.png" alt="" />
                                         <p>Lorem</p>
                                         </div>
-                                        <div className="slide"><img alt="https://cdn-icons-png.flaticon.com/512/2919/2919726.png" src="" />
+                                        <div className="slide"><img src="https://cdn-icons-png.flaticon.com/512/2919/2919726.png" alt="" />
                                         <p>Lorem</p>
                                         </div>
                                         <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/3238/3238681.png" />
