@@ -5,12 +5,7 @@ import $ from 'jquery'
 
 
 export default function Header () {  
-    if ($('.menu-trigger')) {
-        $(".menu-trigger").on('click', function () {
-          $(this).toggleClass('active');
-          $('.header-area .nav').slideToggle(200);
-        });
-      }
+    
     return (
         <>
 
@@ -39,6 +34,9 @@ export default function Header () {
                                             </ul>
                                         </li>
                                         <li className="scroll-to-section"><a href="contact-us" className="menu-item">Contact Us</a></li>
+                                        
+                                        <a href="" className="main-button">DOWNLOAD NOW</a>
+
                                     </ul>
                                 </div>
                                 <a className='menu-trigger'>

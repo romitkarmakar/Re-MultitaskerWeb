@@ -6,13 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import 'font-awesome/css/font-awesome.min.css';
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
     <App />
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>,
   document.getElementById( 'root' )
 );

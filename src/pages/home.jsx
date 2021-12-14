@@ -6,10 +6,16 @@ import Partners from "../components/partners/partners";
 import MobileApp from "../components/mobile-app/mobile-app";
 import Badges from "../components/badges/badges";
 import Howitworks from "../components/how-it-works/how-it-works";
+import Header from "../components/header/header";
+import Footer from "../components/footer/footer";
+import Preloader from "../components/preloader/preloader";
 
 export default function Home () {
  return(
     <>
+    <Preloader/>
+      <Header/>
+
     <Work />
     <Howitworks/>
     <Badges/>
@@ -18,6 +24,7 @@ export default function Home () {
     <Testimonials />
     <FAQ />
     <MobileApp />
+    <Footer/>
     </>
  )   
 }

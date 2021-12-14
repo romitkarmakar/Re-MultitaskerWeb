@@ -4,7 +4,7 @@ import "./badges.css";
 export default function Badges () {
     return(
         <>
-        <section className="section" id="promotion">
+        <section className="section" id="badges">
                 <div className="container">
                     <div className="row">
          <div className="center-heading">

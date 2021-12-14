@@ -1,13 +1,12 @@
 
-import Footer from "./components/footer/footer";
-import Header from "./components/header/header";
 import ScrollReveal from "scrollreveal";
 import $ from 'jquery';
 
 
-import { Routes, Route } from "react-router-dom";
-import Category from "./components/categrory/category";
+import { Switch, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
+import Conatct from "./pages/contactus";
+import CategoryPage from "./pages/category";
 
 function App () {
 
@@ -236,17 +235,12 @@ function App () {
 
   return (
     <div className="App">
-      <div id="preloader">
-        <div className="jumper">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <Header />
-      <Home />
+      <Routes>
+        <Route exact path="/" element={< Home />}></Route>
+        <Route exact path="/contact" element={< Conatct />}></Route>
+        <Route exact path="/category" element={< CategoryPage />}></Route>
 
-      <Footer />
+      </Routes>
     </div>
   );
 }
