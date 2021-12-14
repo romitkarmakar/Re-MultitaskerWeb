@@ -1,10 +1,16 @@
 import './header.css';
 import React from 'react'
+import $ from 'jquery'
 
 
-export default function Header () {
 
-
+export default function Header () {  
+    if ($('.menu-trigger')) {
+        $(".menu-trigger").on('click', function () {
+          $(this).toggleClass('active');
+          $('.header-area .nav').slideToggle(200);
+        });
+      }
     return (
         <>
 
@@ -35,7 +41,7 @@ export default function Header () {
                                         <li className="scroll-to-section"><a href="contact-us" className="menu-item">Contact Us</a></li>
                                     </ul>
                                 </div>
-                                <a className='menu-trigger' href="">
+                                <a className='menu-trigger'>
                                     <span>Menu</span>
                                 </a>
                             </nav>

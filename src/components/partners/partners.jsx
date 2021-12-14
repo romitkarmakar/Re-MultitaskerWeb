@@ -47,41 +47,11 @@ export default function Partners () {
                                     </Slider>
                                 </section>
                             </div>
-                            <div className="center-heading">
-                                <h2>Our Service <em>Provider</em> </h2>
-
-                                <section className="customer-logos slider">
-                                    <Slider ltr { ...settings }>
-                                        <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/1670/1670080.png" />
-                                        <p>Lorem</p>
-                                        </div>
-                                        <div className="slide"><img src="https://cdn-icons-png.flaticon.com/512/1718/1718449.png" alt="" />
-                                        <p>Lorem</p>
-                                        </div>
-                                        <div className="slide"><img src="https://cdn-icons-png.flaticon.com/512/2919/2919726.png" alt="" />
-                                        <p>Lorem</p>
-                                        </div>
-                                        <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/3238/3238681.png" />
-                                        <p>Lorem</p>
-                                        </div>
-                                        <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/994/994928.png" />
-                                        <p>Lorem</p>
-                                        </div>
-                                        <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/3048/3048343.png" />
-                                        <p>Lorem</p>
-                                        </div>
-                                        <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/2762/2762402.png" />
-                                        <p>Lorem</p>
-                                        </div>
-                                        <div className="slide"><img alt="" src="https://cdn-icons-png.flaticon.com/512/393/393651.png" />
-                                        <p>Lorem</p>
-                                        </div>
-                                    </Slider>
-                                </section>
+                            
+                                   
                             </div>
                         </div>
                     </div>
-                </div>
             </section>
         </>
     )

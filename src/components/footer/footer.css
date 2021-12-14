@@ -18,7 +18,7 @@
 footer {
   margin-top: 00px;
   padding-top: 120px;
-  background-image: url("https://t4.ftcdn.net/jpg/02/66/97/53/360_F_266975389_sBNp4HyE8gG58U62Fv2A6JTsaAVtLMk4.jpg"); 
+  background: linear-gradient(145deg, rgb(142, 198, 62) 0%, rgb(58,127,18) 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
