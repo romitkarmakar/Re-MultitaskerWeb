@@ -23,7 +23,7 @@ export default function Services () {
                     <div className="row ">
 
                         {(selected === 0) && <div id="left"> 
-                            <div className="row hemlo">
+                            <div className="hemlo">
                                     <div className="services-left-art">
                                         <img src="https://image.freepik.com/free-vector/communication-flat-icon_1262-18771.jpg" height="400" alt="mobile-app" />
                                     </div>
@@ -40,13 +40,13 @@ export default function Services () {
                                             Have full control of your own schedule​
                                             
                                             </li>
-                                    </ul>
+                                         </ul>
 
                                     </div>
                             </div>
                         </div>}
                         {(selected === 1) && <div id="right">
-                        <div className="row hemlo">
+                        <div className="hemlo">
                                
                                 <div className="services-right-text">
                                     <h2><em>Become a Tasker</em></h2>
