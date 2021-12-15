@@ -50,15 +50,13 @@
 
 
 .demo {
-	padding-top: 60px;
-	padding-bottom: 110px;
+	padding-top: 30px;
 }
 
 .demo-footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	padding: 15px;
 	background-color: #212121;
 	text-align: center;
 }

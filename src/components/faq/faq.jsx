@@ -6,7 +6,6 @@ export default function FAQ () {
         <>
             <section className="section" id="faq">
                 <div className="container">
-                    <img alt="" src="https://svgsilh.com/svg/26432-8bc34a.svg" className="faq-grid" width="150" />
 
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
@@ -79,7 +78,6 @@ export default function FAQ () {
 
                         </div>
                     </div>
-                    <img alt="" src="https://svgsilh.com/svg/26432-8bc34a.svg" className="about-grid" width="200" />
 
                 </div>
             </section>

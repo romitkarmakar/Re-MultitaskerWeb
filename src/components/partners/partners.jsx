@@ -32,7 +32,7 @@ export default function Partners () {
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
                             <div className="center-heading">
-                                <h2>Our <em>Partners</em> </h2>
+                                <h2>Our <em>Openings</em> </h2>
 
                                 <section className="customer-logos slider">
                                     <Slider rtl { ...settings }>

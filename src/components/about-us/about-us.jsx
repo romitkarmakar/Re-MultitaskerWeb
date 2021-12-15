@@ -24,7 +24,6 @@ export default function About () {
 
                         </div>
                     </div>
-                    <img alt="" src="https://svgsilh.com/svg/26432-8bc34a.svg" className="about-grid" width="200" />
 
                 </div>
             </section>

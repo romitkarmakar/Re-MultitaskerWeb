@@ -7,7 +7,7 @@ header
 
 .background-header {
   background-color: #fff;
-  height: 80px!important;
+  height: 100px!important;
   position: fixed!important;
   top: 0px;
   left: 0px;
@@ -64,7 +64,7 @@ header
 
 .header-area .main-nav .nav {
   float: left;
-  margin-top: 27px;
+  margin-top: 24px;
   margin-left: 15%;
   margin-right: 0px;
   background-color: #fff;
