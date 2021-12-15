@@ -9,6 +9,7 @@ import Howitworks from "../components/how-it-works/how-it-works";
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 import Preloader from "../components/preloader/preloader";
+import Services from "../components/services/services";
 
 export default function Home () {
  return(
@@ -18,6 +19,7 @@ export default function Home () {
 
     <Work />
     <Howitworks/>
+    <Services/>
     <Badges/>
     <Partners />
     <About/>
