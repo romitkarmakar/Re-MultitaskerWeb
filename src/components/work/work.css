@@ -250,3 +250,33 @@ promotion
 
 }
 }
+
+.brute-css{
+  display: none;
+}
+
+@media(max-width:990px){
+  .circles-gallery{
+    display: none;
+  }
+  .brute-css{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .brute-css img{
+    border-radius: 50%;
+    height: 275px;
+    width:  275px;
+    object-fit: cover;
+  }
+  .brute-css p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+  }
+  #work,
+  #brute{
+    height: auto !important;
+  }
+}

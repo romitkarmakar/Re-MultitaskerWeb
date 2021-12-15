@@ -21,9 +21,9 @@ export default function Header () {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="nav navbar-nav ml-auto py-4 py-md-0">
 
-                                        <li className="scroll-to-section"><a href="/" className="menu-item">Home</a></li>
-                                        <li className="scroll-to-section"><a href="/" className="menu-item">About</a></li>
-                                        <li className="scroll-to-section"><a href="/" className="menu-item">Testimonials</a>
+                                        <li className="scroll-to-section"><a href="welcome" className="menu-item">Home</a></li>
+                                        <li className="scroll-to-section"><a href="about" className="menu-item">About</a></li>
+                                        <li className="scroll-to-section"><a href="testimonials" className="menu-item">Testimonials</a>
                                         </li>
                                         <li className="scroll-to-section"><p className="menu-item">
                                             <Link to ="/category">Category</Link></p></li>
@@ -38,7 +38,7 @@ export default function Header () {
                                             </ul>
                                         </li>
                                         <li className="scroll-to-section"><p className="menu-item">
-                                            <Link to ="/contact">Contact Us</Link></p></li> 
+                                            <Link to ="/contact">Conatct Us</Link></p></li> 
 
                                     </ul>
 
