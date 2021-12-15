@@ -11,6 +11,12 @@ import TNC from './pages/termsAndConditions/TermsAndConditions'
 import CategoryPage from "./pages/category";
 
 function App () {
+  if(window.console && !console.dir){
+    var methods = ["dir", "dirxml", "trace", "profile"]; //etc etc
+        for(var i=0;i<methods.length;i++){
+            console[methods[i]] = function(){};
+        }
+    }
   const tawkToPropertyId = '61b98aaac82c976b71c1854b'
 
   // Direct Chat Link

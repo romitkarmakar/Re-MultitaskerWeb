@@ -46,8 +46,12 @@ export default function Footer () {
                                 <p>Phasellus dapibus urna vel lacus accumsan, iaculis eleifend leo auctor.Duis at finibus odio.
                                     Vivamus ut pharetra arcu, in porta metus.Suspendisse blandit pulvinar ligula ut elementum.
                                     <br /><br />If you need this contact form to send email to your inbox, you may follow our <a
-                                        rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact</a> page
+                                        rel="nofollow" href="/contact" target="_parent">contact</a> page
                                     for more detail.</p>
+                                    <br/>
+                                    <br/>
+                                    <a
+                                        rel="nofollow" href="/contact" target="_parent">TERMS AND CONDITIONS</a> 
                                 <ul className="social">
                                     <li><a href="https://fb.com/"><i className="fa fa-facebook"></i></a></li>
                                     <li><a href="https://twitter.com/"><i className="fa fa-twitter"></i></a></li>
