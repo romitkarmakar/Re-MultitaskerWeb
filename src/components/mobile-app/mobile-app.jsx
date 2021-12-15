@@ -17,7 +17,7 @@ export default function MobileApp () {
                             Download the Multitasker App and get the tasks you need completed with just a tap of the button. You can also browse available tasks and earn money wherever you go!
                             </p>
                             <br />
-                           <img src="https://www.google.com/intl/en/cast/about/static/images/download-badges/android-download.png" width="200"/>
+                           <img src="https://www.google.com/intl/en/cast/about/static/images/download-badges/android-download.png" class="mb-2" width="200"/>
                            <img src="https://playdigious.com/wp-content/uploads/2021/06/App-Store-Download.png" width="200"/>
                         </div>
                         <div className="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
