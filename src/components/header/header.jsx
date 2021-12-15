@@ -38,7 +38,7 @@ export default function Header () {
                                             </ul>
                                         </li>
                                         <li className="scroll-to-section"><p className="menu-item">
-                                            <Link to ="/contact">Conatct Us</Link></p></li> 
+                                            <Link to ="/contact">Contact Us</Link></p></li> 
 
                                     </ul>
 
