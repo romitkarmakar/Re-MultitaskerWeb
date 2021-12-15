@@ -1,14 +1,14 @@
-import ContactForm from "../components/contact/contact";
+import React from "react";
 import Footer from "../components/footer/footer";
-import Header from "../components/header/header";
-import Helpcards from "../components/helpcards/helpcards";
+import Navbar from "../components/Navbar/Navbar";
 
 export default function Conatct () {
     return(
         <>
-        <Header/>
-        {/* <Helpcards/>
-        <ContactForm/> */}
+        <Navbar />
+
+
+        
         <Footer/>
         </>
     )

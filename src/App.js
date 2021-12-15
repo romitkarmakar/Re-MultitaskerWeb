@@ -6,7 +6,8 @@ import React, {useEffect} from 'react'
 import tawkTo from "tawkto-react";
 import { Switch, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
-import Conatct from "./pages/contactus";
+import Contact from './pages/contactus/contactus'
+import TNC from './pages/termsAndConditions/TermsAndConditions'
 import CategoryPage from "./pages/category";
 
 function App () {
@@ -101,7 +102,8 @@ function App () {
     <div className="App">
       <Routes>
         <Route exact path="/" element={< Home />}></Route>
-        <Route exact path="/contact" element={< Conatct />}></Route>
+        <Route exact path="/contact" element={< Contact />} />
+        <Route exact path="/terms-and-conditions" element={< TNC />} />
         <Route exact path="/category" element={< CategoryPage />}></Route>
         <Route path="/" element={<Home/>}/>
       </Routes>
