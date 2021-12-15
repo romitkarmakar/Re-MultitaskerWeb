@@ -26,6 +26,7 @@
     "react-simple-chatbot": "^0.6.1",
     "react-slick": "^0.28.1",
     "scrollreveal": "^4.0.9",
+    "tawkto-react": "^2.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

@@ -1,15 +1,26 @@
 
 import ScrollReveal from "scrollreveal";
 import $ from 'jquery';
+import React, {useEffect} from 'react'
 
-
+import tawkTo from "tawkto-react";
 import { Switch, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Conatct from "./pages/contactus";
 import CategoryPage from "./pages/category";
 
 function App () {
+  const tawkToPropertyId = '61b98aaac82c976b71c1854b'
 
+  // Direct Chat Link
+  // https://tawk.to/chat/tawkToPropertyId/tawkToKey
+  
+  const tawkToKey = 'b256ef02bc8bc95ddf9910cb94407194e0930942'
+  
+  useEffect(() => {
+      tawkTo(tawkToPropertyId, tawkToKey)
+  }, [])
+  
     $(window).scroll(function () {
       var scroll = $(window).scrollTop();
       var box = $('.header-text').height();
@@ -231,8 +242,7 @@ function App () {
       });
     }
   
-  
-
+   
   return (
     <div className="App">
       <Routes>
