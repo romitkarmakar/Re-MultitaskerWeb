@@ -24,9 +24,8 @@ export default function Howitworks () {
                     </div>
                     <div class="px-3 text-center pb-3">
                         <img src="https://cdn-icons-png.flaticon.com/512/1999/1999310.png" height="100"/>
-                        <h4>Headline</h4>
-                        <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
-                            deleniti et fugit iusto nesciunt.</p>
+                        <h4>Post your Task for free</h4>
+                        <p class="font-weight-light my-3">Post your Task for free on our website and connect with people.</p>
                     </div>
                 </div>
             </div>
@@ -39,9 +38,8 @@ export default function Howitworks () {
                     <div class="px-3 text-center pb-3">
                         <img src="https://i.pinimg.com/736x/58/68/e8/5868e8bd79ace22ad87cae935d18330a.jpg" height="130"/>
                         
-                        <h4>Headline</h4>
-                        <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
-                            deleniti et fugit iusto nesciunt.</p>
+                        <h4>Review offers</h4>
+                        <p class="font-weight-light my-3">Review offers and choose the best available offer that suit your needs.</p>
                     </div>
                 </div>
             </div>
@@ -52,9 +50,8 @@ export default function Howitworks () {
                     </div>
                     <div class="px-3 text-center pb-3">
                         <img src="https://www.pngall.com/wp-content/uploads/8/Task-List-PNG-Free-Image.png" height="100"/>
-                        <h4>Headline</h4>
-                        <p class="font-weight-light my-3">Lorem ipsum dolor sit consectetur adipisicing elit. Alias amet
-                            deleniti et fugit iusto nesciunt.</p>
+                        <h4>Get task done</h4>
+                        <p class="font-weight-light my-3">Get task done by experts. Making everyday life made Easier</p>
                     </div>
                 </div>
             </div>

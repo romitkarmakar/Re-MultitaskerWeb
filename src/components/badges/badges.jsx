@@ -9,9 +9,7 @@ export default function Badges () {
                     <div className="row">
          <div className="center-heading">
                             <h2>Multitasker And Its <em>Badges</em></h2>
-                            <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio.
-                                Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.</p>
-                        </div>
+                            <p>By following these principles and providing a quality experience, you’ll keep Posters coming back to the platform and creating more earning opportunities while earning badges</p>                        </div>
         <main>
             <ul class="infoGraphic"> 
                 <li>
@@ -23,8 +21,8 @@ export default function Badges () {
                 </div>
                 <div class="content">
                     <div class="icon iconCodepen"></div>
-                    <h2>Develop</h2>
-                    <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+                    <h2>Children</h2>
+<p>show you have worked with kids and you are SCARS and CPR trained</p>
                 </div>
                 </li>
                 <li>
@@ -37,7 +35,7 @@ export default function Badges () {
                 <div class="content">
                     <div class="icon iconSocial"></div>
                     <h2>Reliable</h2>
-                    <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+                    <p>Take pride in your work, be conﬁdent in your skills, price fairly and accurately</p>
                 </div>
                 </li>
                 <li>
@@ -49,11 +47,11 @@ export default function Badges () {
                 </div>
                 <div class="content">
                     <div class="icon iconAirplane"></div>
-                    <h2>Children</h2>
-                    <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+                    <h2>Professional</h2>
+                    <p> uphold a reputation of quality by delivering a professional service.</p>
                 </div>
                 </li>
-                <li>
+                {/* <li>
                 <div class="numberWrap">
                     <div class="number  fontColor4">4</div>
                     <div class="coverWrap">
@@ -78,7 +76,7 @@ export default function Badges () {
                     <h2>Educate</h2>
                     <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
                 </div>
-                </li>
+                </li> */}
             </ul>
 
             </main>

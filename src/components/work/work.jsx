@@ -9,9 +9,7 @@ export default function Work () {
                 <div className="container">
                     <div className="center-heading">
                         <h2>What We <em>Do?</em></h2>
-                        <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio.
-                            Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.</p>
-                    </div>
+                        <p>Largest globally spread network of talented people</p></div>
                     {/* <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12"
                             data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">

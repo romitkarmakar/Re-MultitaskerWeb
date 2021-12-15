@@ -2,7 +2,7 @@ import './header.css';
 import React from 'react'
 import $ from 'jquery'
 
-
+import {Link} from 'react-router-dom'
 
 export default function Header () {  
     
@@ -14,16 +14,20 @@ export default function Header () {
                     <div className="row">
                         <div className="col-12">
                             <nav className="main-nav navbar navbar-expand-md navbar-light fixed">
-                                <a href="index.html" className="logo">
+                                <a href="/" className="logo">
                                 <img src="https://i.ibb.co/gZhsVNv/Multitasker-Logo-Final-Color.png" alt="Multitasker-Logo-Final-Color" height="75"/>
                                 </a>
 
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="nav navbar-nav ml-auto py-4 py-md-0">
+
                                         <li className="scroll-to-section"><a href="welcome" className="menu-item">Home</a></li>
                                         <li className="scroll-to-section"><a href="about" className="menu-item">About</a></li>
                                         <li className="scroll-to-section"><a href="testimonials" className="menu-item">Testimonials</a>
                                         </li>
+                                        <li className="scroll-to-section"><p className="menu-item">
+                                            <Link to ="/category">Category</Link></p></li>
+
                                         <li className="submenu">
                                             <a href="">Know more</a>
                                             <ul>
@@ -33,11 +37,11 @@ export default function Header () {
                                                 <li><a href="" className="menu-item">Blog</a></li>
                                             </ul>
                                         </li>
-                                        <li className="scroll-to-section"><a href="contact-us" className="menu-item">Contact Us</a></li>
-                                        
-                                        <a href="" className="main-button">DOWNLOAD NOW</a>
+                                        <li className="scroll-to-section"><p className="menu-item">
+                                            <Link to ="/contact">Conatct Us</Link></p></li> 
 
                                     </ul>
+
                                 </div>
                                 <a className='menu-trigger'>
                                     <span>Menu</span>

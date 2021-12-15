@@ -45,12 +45,18 @@
 	.panel-default > .panel-heading + .panel-collapse > .panel-body {
 		border-top-color: #EEEEEE;
 	}
+	.panel-body{
+		background: #fff;
+		padding: 30px 10px;
+	}
 
 /* ----- v CAN BE DELETED v ----- */
 
 
 .demo {
 	padding-top: 30px;
+	text-align: left !important;
+position: relative;
 }
 
 .demo-footer {
@@ -66,4 +72,10 @@
 	font-weight: bold;
 	font-size: 14px;
 	color: #fff;
+}
+
+.faq-icon{
+	position: absoulte;
+	float: right;
+	top: 0;
 }

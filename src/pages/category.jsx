@@ -6,7 +6,7 @@ export default function CategoryPage () {
     return(
         <>
         <Header/>
-        {/* <Category/> */}
+        <Category/> 
         <Footer/>
         </>
     )
