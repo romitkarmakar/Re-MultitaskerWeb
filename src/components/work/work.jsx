@@ -1,6 +1,7 @@
 import './work.css';
 import React from 'react'
 
+
 export default function Work () {
     return (
         <>
@@ -131,14 +132,14 @@ export default function Work () {
                         </div>
                     </div> */}
                     <div class="circles-gallery">
-                            <img src="https://images.pexels.com/photos/5591641/pexels-photo-5591641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Some Tech Picture" />
-                            <img src="https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Tech Picture" />
-                            <img src="https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Tech Picture" />
-                            <img src="https://images.pexels.com/photos/6231905/pexels-photo-6231905.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
-                            <img src="https://images.pexels.com/photos/1021872/pexels-photo-1021872.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
-                            <img src="https://images.pexels.com/photos/235922/pexels-photo-235922.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
-                            <img src="https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Some Architecture Picture" />
-                            <img src="https://images.pexels.com/photos/207574/pexels-photo-207574.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
+                        <img src="https://images.pexels.com/photos/5591641/pexels-photo-5591641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Some Tech Picture" />
+                        <img src="https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Tech Picture" />
+                        <img src="https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Tech Picture" />
+                        <img src="https://images.pexels.com/photos/6231905/pexels-photo-6231905.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
+                        <img src="https://images.pexels.com/photos/1021872/pexels-photo-1021872.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
+                        <img src="https://images.pexels.com/photos/235922/pexels-photo-235922.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
+                        <img src="https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Some Architecture Picture" />
+                        <img src="https://images.pexels.com/photos/207574/pexels-photo-207574.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
                     </div>
                     <div className="circles-gallery">
                         <h6>Home cleaning</h6>
@@ -167,8 +168,9 @@ export default function Work () {
                         <p>Graphic</p>
                         <img src="https://images.pexels.com/photos/207574/pexels-photo-207574.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
                         <p>Security</p>
-                    </div>                    
-               </div>
+                    </div>
+                </div>
+
             </section>
         </>
     )

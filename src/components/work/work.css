@@ -203,7 +203,7 @@ promotion
   position: relative;
   height: var(--size-pictureframe);
   margin-left: calc(var(--size-pictureframe) );
-  padding: 0 50px;
+  padding: 0 10px;
 }
 .circles-gallery > * {
   position: relative;
@@ -215,6 +215,9 @@ promotion
   aspect-ratio: 1;
   border-radius: 50%;
   z-index: 10;
+}
+.circles-gallery > * first-child{
+  margin-left: 0;
 }
 .circles-gallery > h6{
   margin-left: calc(var(--size-pictureframe) * -0.01);
@@ -230,8 +233,6 @@ promotion
 /* demo purpose only - may be removed */
 #work{
   height: calc(var(--size-pictureframe) + 5vh);
-  margin: 0 auto;
-  padding: 2.5vh;
   position: relative;
   min-height: 110vh;
 
@@ -253,6 +254,11 @@ promotion
 
 .brute-css{
   display: none;
+}
+@media(min-width: 1700px){
+.circles-gallery {
+  text-align: center;
+}
 }
 
 @media(max-width:990px){
