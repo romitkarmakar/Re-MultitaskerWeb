@@ -197,7 +197,7 @@ promotion
 
 
 :root {
-  --size-pictureframe: 200px;
+  --size-pictureframe: 170px;
 }
 .circles-gallery {
   position: relative;
@@ -217,13 +217,17 @@ promotion
   aspect-ratio: 1;
   border-radius: 50%;
   z-index: 10;
+  background-image: linear-gradient(145deg, rgb(142, 198, 62) 0%, rgb(58,127,18) 100%);
+  padding: 10px;
 }
+
 .circles-gallery > * first-child{
   margin-left: 0;
 }
 .circles-gallery > h6{
   margin-left: calc(var(--size-pictureframe) * -0.01);
   border: none;
+  background: transparent;
 
 }
 .circles-gallery > *:hover,
@@ -281,12 +285,15 @@ promotion
     display: flex;
     align-items: center;
     flex-direction: column;
+
   }
   .brute-css img{
     border-radius: 50%;
     height: 275px;
     width:  275px;
     object-fit: cover;
+  background-image: linear-gradient(145deg, rgb(142, 198, 62) 0%, rgb(58,127,18) 100%);
+
   }
   .brute-css p{
     font-size: 1.8rem;

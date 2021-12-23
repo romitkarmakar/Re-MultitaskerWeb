@@ -20,9 +20,9 @@ const Navbar = () => {
                             <div className="collapse navbar-collapse" >
                                 <ul className="nav navbar-nav ml-auto py-4 py-md-0">
 
-                                    <li className="scroll-to-section"><a href="#work" className="menu-item">Home</a></li>
-                                    <li className="scroll-to-section"><a href="#about" className="menu-item">About</a></li>
-                                    <li className="scroll-to-section"><a href="#testimonials" className="menu-item">Testimonials</a>
+                                    <li className="scroll-to-section"><a href="/#work" className="menu-item">Home</a></li>
+                                    <li className="scroll-to-section"><a href="/#about" className="menu-item">About</a></li>
+                                    <li className="scroll-to-section"><a href="/#testimonials" className="menu-item">Testimonials</a>
                                     </li>
                                     <li className="scroll-to-section"><p className="menu-item">
                                         <Link to="/category">Category</Link></p></li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                                         <Link to="/contact">Contact Us</Link></p>
                                     </li>
                                     <li className="menu-item">
-                                        <a href="#mobile" className="main-button-slider" style={ { paddingBottom: '30px', paddingTop: '0' } }>DOWNLOAD NOW</a>
+                                        <a href="/#mobile" className="main-button-slider" style={ { paddingBottom: '30px', paddingTop: '0' } }>DOWNLOAD NOW</a>
 
                                     </li>
 
@@ -50,9 +50,9 @@ const Navbar = () => {
 
             <div className={ navbar ? 'd-flex' : 'd-none' } id="bruteNav">
                 <ul>
-                    <li className="scroll-to-section"><a href="welcome" className="menu-item">Home</a></li>
-                    <li className="scroll-to-section"><a href="about" className="menu-item">About</a></li>
-                    <li className="scroll-to-section"><a href="testimonials" className="menu-item">Testimonials</a>
+                    <li className="scroll-to-section"><a href="/#welcome" className="menu-item">Home</a></li>
+                    <li className="scroll-to-section"><a href="/#about" className="menu-item">About</a></li>
+                    <li className="scroll-to-section"><a href="/#testimonials" className="menu-item">Testimonials</a>
                     </li>
                     <li className="scroll-to-section">
                         <Link to="/category">Category</Link>
@@ -68,10 +68,7 @@ const Navbar = () => {
                     <li>
                         <Link to="/contact">Contact Us</Link>
                     </li>
-                    <li className="menu-item">
-                        <a href="about" className="main-button-slider" style={ { paddingBottom: '30px', paddingTop: '0' } }>DOWNLOAD NOW</a>
 
-                    </li>
                 </ul>
             </div>
         </header>
