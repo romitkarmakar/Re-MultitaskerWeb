@@ -14,7 +14,7 @@ export default function About () {
     return (
         <>
             <section className="section" id="about">
-                <div className="container">
+                <div className="container" style={ { borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
                             <div className="center-heading">
@@ -46,14 +46,14 @@ export default function About () {
                     </div>
 
                 </div>
-                <div className="lottie">
+                {/* <div className="lottie">
                     <Lottie
                         loop
                         animationData={ Animation }
                         play
                         style={ { width: 450, height: 450 } }
                     />
-                </div>
+                </div> */}
 
             </section>
         </>

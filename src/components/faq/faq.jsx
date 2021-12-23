@@ -17,8 +17,8 @@ export default function FAQ () {
     ]
     return (
         <>
-            <section className="section" id="faq">
-                <div className="container">
+            <section className="section" id="faq" style={ { marginTop: "50px" } }>
+                <div className="container" style={ { borderTop: 'solid 2px green', paddingTop: '50px' } }>
 
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
@@ -83,9 +83,9 @@ export default function FAQ () {
                                             </div>
                                         </div>
                                         <div className="panel panel-default">
-                                            <div className="panel-heading shadow  mb-2 bg-white rounded " role="tab" id="headingThree">
+                                            <div className="panel-heading shadow  mb-2 bg-white rounded " role="tab" id="headingFour">
                                                 <h4 className="panel-title">
-                                                    <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                                         <img src="https://cdn-icons-png.flaticon.com/512/137/137621.png" width="30" class="faq-icon" />
                                                         <i className="more-less glyphicon glyphicon-plus"></i>
                                                         <h6>Do I have to be home when my task is <em>completed?</em></h6>
@@ -93,15 +93,16 @@ export default function FAQ () {
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="collapseThree" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div id="collapseFour" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                                 <div className="panel-body">
                                                     You’re responsible for overseeing and directing the work of your Tasker. Multitasker does not monitor, direct, or oversee the work of Taskers, as they are independent contractors hired by Clients. If you won't be home, be sure to give your Tasker any instructions they may need to correctly complete your task. If your Tasker needs more information from you they will contact you through the chat.                                                </div>
                                             </div>
-
                                         </div>
 
 
                                     </div>
+
+
 
 
                                 </p>
@@ -111,7 +112,7 @@ export default function FAQ () {
                     </div>
 
                 </div>
-            </section>
+            </section >
         </>
     )
 

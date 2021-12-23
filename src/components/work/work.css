@@ -210,7 +210,7 @@ promotion
 .circles-gallery > * {
   position: relative;
   display: inline-block;
-  margin-left: calc(var(--size-pictureframe) * -0.1);
+  margin-left: calc(var(--size-pictureframe) * -0.0075);
   margin-bottom: 30px;
   height: 100%;
   border: solid .5rem white;

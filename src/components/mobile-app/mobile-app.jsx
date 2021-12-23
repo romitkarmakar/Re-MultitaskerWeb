@@ -1,10 +1,13 @@
 import React from 'react'
+import Lottie from 'react-lottie-player'
+import animationData from "../../assets/mobile.json"
 
 export default function MobileApp () {
+
     return (
         <>
-            <section className="section" id="promotion">
-                <div className="container">
+            <section className="section" id="mobile">
+                <div className="container" style={ { borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="row">
                         <div className="center-heading">
                             <h2>On the <em>Move?</em></h2>
@@ -17,14 +20,14 @@ export default function MobileApp () {
                                 Download the Multitasker App and get the tasks you need completed with just a tap of the button. You can also browse available tasks and earn money wherever you go!
                             </p>
                             <br />
-                            <img src="https://www.google.com/intl/en/cast/about/static/images/download-badges/android-download.png" class="mb-2" width="200" />
-                            <img src="https://playdigious.com/wp-content/uploads/2021/06/App-Store-Download.png" width="200" />
+                            <img src="https://www.google.com/intl/en/cast/about/static/images/download-badges/android-download.png" class="m-2" width="200" />
+                            <img src="https://playdigious.com/wp-content/uploads/2021/06/App-Store-Download.png" width="200" class="m-2" />
                         </div>
                         <div className="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
                             data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
 
 
-                            <iframe src="https://embed.lottiefiles.com/animation/88958" height="600"></iframe>
+                            <Lottie animationData={ animationData } loop play />
                         </div>
                     </div>
                 </div>

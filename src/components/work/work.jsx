@@ -6,21 +6,21 @@ export default function Work () {
     return (
         <>
 
-            <section className="section" id="work">
-                <div className="container" id="brute">
+            <section className="section" id="work" >
+                <div className="container" id="brute" style={ { backgroundColor: 'rgba( 250, 250, 250, 0.1 )', borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="center-heading">
                         <h2>What We <em>Do?</em></h2>
                         <p>Largest globally spread network of talented people</p></div>
                 </div>
                 <div class="circles-gallery">
-                    <img src="https://images.pexels.com/photos/5591641/pexels-photo-5591641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Some Tech Picture" />
-                    <img src="https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Tech Picture" />
-                    <img src="https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Tech Picture" />
-                    <img src="https://images.pexels.com/photos/6231905/pexels-photo-6231905.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
-                    <img src="https://images.pexels.com/photos/1021872/pexels-photo-1021872.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
-                    <img src="https://images.pexels.com/photos/235922/pexels-photo-235922.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
-                    <img src="https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Some Architecture Picture" />
-                    <img src="https://images.pexels.com/photos/207574/pexels-photo-207574.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/3899/3899147.png" alt="Some Tech Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1949/1949291.png" alt="Some Tech Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995491.png" alt="Some Tech Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1518/1518965.png" alt="Some Architecture Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995507.png" alt="Some Architecture Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/3400/3400272.png" alt="Some Architecture Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/2806/2806972.png" alt="Some Architecture Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1320/1320477.png" alt="Some Architecture Picture" />
                 </div>
                 <div className="circles-gallery">
                     <h6>Home cleaning</h6>
@@ -33,21 +33,21 @@ export default function Work () {
                     <h6>Security</h6>
                 </div>
                 <div className="brute-css">
-                    <img src="https://images.pexels.com/photos/5591641/pexels-photo-5591641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Some Tech Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/3899/3899147.png" alt="Some Tech Picture" />
                     <p>Cleaning</p>
-                    <img src="https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Tech Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1949/1949291.png" alt="Some Tech Picture" />
                     <p>Trucking</p>
-                    <img src="https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Tech Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995491.png" alt="Some Tech Picture" />
                     <p>Handyman</p>
-                    <img src="https://images.pexels.com/photos/6231905/pexels-photo-6231905.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1518/1518965.png" alt="Some Architecture Picture" />
                     <p>Landscaper</p>
-                    <img src="https://images.pexels.com/photos/1021872/pexels-photo-1021872.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995507.png" alt="Some Architecture Picture" />
                     <p>Plumbing</p>
-                    <img src="https://images.pexels.com/photos/235922/pexels-photo-235922.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/3400/3400272.png" alt="Some Architecture Picture" />
                     <p>Lifestyle</p>
-                    <img src="https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Some Architecture Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/2806/2806972.png" alt="Some Architecture Picture" />
                     <p>Graphic</p>
-                    <img src="https://images.pexels.com/photos/207574/pexels-photo-207574.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Some Architecture Picture" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1320/1320477.png" alt="Some Architecture Picture" />
                     <p>Security</p>
                 </div>
 

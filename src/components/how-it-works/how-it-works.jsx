@@ -20,7 +20,7 @@ export default function Howitworks () {
                         style={ { width: 450, height: 450 } }
                     />
                 </div>
-                <section id="steps">
+                <section id="steps" style={ { backgroundColor: 'rgba( 250, 250, 250, 0.1 )', borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div class="text-center mb-5">
                         <div className="center-heading">
                             <h2>How It <em>Works?</em></h2>

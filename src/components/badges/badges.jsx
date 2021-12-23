@@ -29,7 +29,7 @@ export default function Badges () {
     return (
         <>
             <section className="section" id="badges">
-                <div className="container">
+                <div className="container" style={ { borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="row">
                         <div className="center-heading">
                             <h2>Multitasker And Its <em>Badges</em></h2>

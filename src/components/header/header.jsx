@@ -23,7 +23,7 @@ export default function Header () {
                                 <p>Multitasker helps you get more time back in your day! You
                                     can book tasks from a variety of categories to best suit
                                     your needs.</p>
-                                <a href="about" className="main-button-slider">KNOW US BETTER</a>
+                                <a href="#about" className="main-button-slider">KNOW US BETTER</a>
                             </div>
 
                         </div>

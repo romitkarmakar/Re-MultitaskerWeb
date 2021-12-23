@@ -57,7 +57,7 @@ export default function Testimonials () {
     return (
         <>
             <section className="section" id="testimonials">
-                <div className="container">
+                <div className="container" style={ { borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
                             <div className="center-heading">
