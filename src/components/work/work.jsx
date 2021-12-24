@@ -11,6 +11,10 @@ export default function Work () {
                     <div className="center-heading">
                         <h2>What We <em>Do?</em></h2>
                         <p>Largest globally spread network of talented people</p></div>
+                    <div className="lottie">
+                        <a href="/category" className="main-button-slider text-center m-3 mb-5 text-bold">SEE MORE</a>
+
+                    </div>
                 </div>
                 <div class="circles-gallery">
                     <img src="https://cdn-icons-png.flaticon.com/512/3899/3899147.png" alt="Some Tech Picture" />
@@ -32,6 +36,7 @@ export default function Work () {
                     <h6>Graphic</h6>
                     <h6>Security</h6>
                 </div>
+
                 <div className="brute-css">
                     <img src="https://cdn-icons-png.flaticon.com/512/3899/3899147.png" alt="Some Tech Picture" />
                     <p>Cleaning</p>
