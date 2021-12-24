@@ -5,81 +5,67 @@ import React from 'react'
 export default function Footer () {
     return (
         <>
-            <footer id="contact-us">
-                <div class="footer">
-                    <div class="heading">
-                        <h2 className="text-white">MULTITASKER<sup>&trade;</sup></h2>
-                        <p class="text-black">
-                            Multitasker is an online marketplace that connects busy everyday people who need to outsource any task or run any errand with trusted local multitaskers who are ready to work and lend a helping hand
-                        </p>
-                    </div>
-                    <div class="content">
-                        <div class="services">
-                            <h4>Services</h4>
-                            <p><a href="/category">Cleaning</a></p>
-                            <p><a href="/category">Web development</a></p>
-                            <p><a href="/category">Trucking</a></p>
-                            <p><a href="/category">Graphic designing</a></p>
-                            <p><a href="/category">And many other services</a></p>
-
+            <footer>
+                <div class="content">
+                    <div class="top">
+                        <div class="logo-details">
+                            <img src="https://i.ibb.co/gZhsVNv/Multitasker-Logo-Final-Color.png" width="100" />
+                            <span class="logo_name">Logo</span>
                         </div>
-                        <div class="social-media">
-                            <h4>Social</h4>
-                            <p>
-                                <a href="https://www.linkedin.com/in/"
-                                ><i class="fab fa-linkedin"></i> Linkedin</a
-                                >
-                            </p>
-                            <p>
-                                <a href="https://twitter.com/"
-                                ><i class="fab fa-twitter"></i> Twitter</a
-                                >
-                            </p>
-                            <p>
-                                <a href="https://github.com/"
-                                ><i class="fab fa-pinterest"></i> Pinterest</a
-                                >
-                            </p>
-                            <p>
-                                <a href="https://codepen.io/"
-                                ><i class="fab fa-youtube"></i> Youtube</a
-                                >
-                            </p>
-                            <p>
-                                <a href="https://www.instagram.com/"
-                                ><i class="fab fa-instagram"></i> Instagram</a
-                                >
-                            </p>
-                        </div>
-                        <div class="links">
-                            <h4>Quick links</h4>
-                            <p><a href="/#work">Home</a></p>
-                            <p><a href="/#about">About</a></p>
-                            <p><a href="/category">Category</a></p>
-                            <p><a href="/contact">Contact</a></p>
-                            <p><a href="/terms-and-conditions">Terms and Conditions</a></p>
-
-                        </div>
-                        <div class="details">
-                            <h4 class="address">Address</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur <br />
-                                adipisicing elit. Cupiditate, qui!
-                            </p>
-                            <h4 class="mobile">Mobile</h4>
-                            <p><a href="#">+9112233445</a></p>
-                            <h4 class="mail">Email</h4>
-                            <p><a href="#">abcdef@gmail.com</a></p>
+                        <div class="media-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
-                    <footer>
-                        <hr />
-                        &copy; 2021 Multitasker.
-                    </footer>
+                    <div class="link-boxes">
+                        <ul class="box">
+                            <li class="link_name">Company</li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="/contact">Contact us</a></li>
+                            <li><a href="/#about">About us</a></li>
+                            <li><a href="/#work">Get started</a></li>
+                        </ul>
+                        <ul class="box">
+                            <li class="link_name">Services</li>
+                            <li><a href="#">Graphic design</a></li>
+                            <li><a href="#">Handyman</a></li>
+                            <li><a href="#">Logo design</a></li>
+                            <li><a href="#">Banner design</a></li>
+                        </ul>
+                        <ul class="box">
+                            <li class="link_name">Account</li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">My account</a></li>
+                            <li><a href="#">Prefrences</a></li>
+                            <li><a href="#">Purchase</a></li>
+                        </ul>
+                        <ul class="box">
+                            <li class="link_name">Courses</li>
+                            <li><a href="#">HTML & CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">Photography</a></li>
+                            <li><a href="#">Photoshop</a></li>
+                        </ul>
+                        <ul class="box input-box">
+                            <li class="link_name">Subscribe</li>
+                            <li><input type="text" placeholder="Enter your email" /></li>
+                            <li><input type="button" value="Subscribe" /></li>
+                        </ul>
+                    </div>
                 </div>
-
-
-            </footer >
+                <div class="bottom-details">
+                    <div class="bottom_text">
+                        <span class="copyright_text">Copyright © 2021 <a href="#">Logo.</a>All rights reserved</span>
+                        <span class="policy_terms">
+                            <a href="#">Privacy policy</a>
+                            <a href="#">Terms & condition</a>
+                        </span>
+                    </div>
+                </div>
+            </footer>
 
         </>
     )

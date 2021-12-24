@@ -11,7 +11,7 @@ export default function Header () {
 
             <Navbar />
 
-            <div className="welcome-area" id="welcome">
+            <div className="welcome-area mb-5" id="welcome">
 
                 <div className="header-text">
                     <div className="container">

@@ -11,7 +11,7 @@ export default function Work () {
                     <div className="center-heading">
                         <h2>What We <em>Do?</em></h2>
                         <p>Largest globally spread network of talented people</p></div>
-                    <div className="lottie">
+                    <div className="work-btn">
                         <a href="/category" className="main-button-slider text-center m-3 mb-5 text-bold">SEE MORE</a>
 
                     </div>

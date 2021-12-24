@@ -206,6 +206,7 @@ promotion
   padding: 0 30px;
   text-align: center;
   margin-right:100px;
+  margin-top: 30px;
 }
 .circles-gallery > * {
   position: relative;
@@ -244,6 +245,10 @@ promotion
   min-height: 70vh;
 
 }
+.work-btn{
+  text-align: right;
+  margin-right: 150px;
+}
 /* -------------------- */
 @media only screen and (max-width: 600px) {
 #work{
@@ -263,8 +268,11 @@ promotion
   display: none;
 }
 @media(min-width: 1700px){
+  :root {
+  --size-pictureframe: 180px;
+}
  #work{
-   min-height: 30vh !important;
+   min-height: 50vh !important;
  }
 .circles-gallery {
   text-align: center;
@@ -279,6 +287,9 @@ promotion
 }
 
 @media(max-width:990px){
+  .work-btn{
+    text-align: center !important;
+  }
   .circles-gallery{
     display: none;
   }
@@ -288,6 +299,7 @@ promotion
     flex-direction: column;
     margin: 0 auto;
     margin-bottom:0 !important;
+    margin-top: 30px;
   }
   .brute-css img{
     /* border-radius: 50%; */

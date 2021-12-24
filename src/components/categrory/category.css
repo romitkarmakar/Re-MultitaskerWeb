@@ -32,7 +32,7 @@ body {
 }
 .container .box, .container .add_box {
   position: relative;
-  height: 200px;
+  height: 400px;
   box-shadow: 1px 1px 5px rgba(85, 85, 85, 0.5);
   border-radius: 4px;
   margin-bottom: 7%;
@@ -50,6 +50,7 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
+  padding: 20px;
 }
 .container .box .box__title, .container .add_box .box__title {
   position: absolute;
@@ -66,7 +67,7 @@ body {
 .container .box .box__title p, .container .add_box .box__title p {
   opacity: 0;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1.5em;
   margin: 0;
   transition-delay: 0.2s;
   transition: 0.2s;
@@ -76,7 +77,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin: 7% 0 0 0;
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 .container .add_box {
   background-color: #f9f9f9;
@@ -105,4 +106,27 @@ body {
 }
 .container .add_box a:hover svg {
   margin-top: 21.5%;
+}
+ #category{
+    padding: 68px;
+    margin: 68px;
+  }
+@media (max-height: 800px) {
+ #category{
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 50px !important;
+  }
+  .container .box, .container .add_box {
+    height: 300px;
+  }
+  .container .box .box__title, .container .add_box .box__title {
+    height: 25%;
+  }
+  .container .box .box__title p, .container .add_box .box__title p {
+    font-size: 1.2em;
+  }
+  .container .add_box .add_box__title {
+    top: 50%;
+  }
 }
