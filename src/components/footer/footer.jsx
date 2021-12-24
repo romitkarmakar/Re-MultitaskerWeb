@@ -1,6 +1,6 @@
 import './footer.css';
 import React from 'react'
-
+import Logo from "../../assets/logo/Multitasker-Logo-Final-Black.png";
 
 export default function Footer () {
     return (
@@ -9,8 +9,8 @@ export default function Footer () {
                 <div class="content">
                     <div class="top">
                         <div class="logo-details">
-                            <img src="https://i.ibb.co/gZhsVNv/Multitasker-Logo-Final-Color.png" width="100" />
-                            <span class="logo_name">Logo</span>
+                            <img src={ Logo } alt="logo" width="150" />
+                            {/* <span class="logo_name">Multitasker</span> */ }
                         </div>
                         <div class="media-icons">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -23,17 +23,19 @@ export default function Footer () {
                     <div class="link-boxes">
                         <ul class="box">
                             <li class="link_name">Company</li>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="/contact">Contact us</a></li>
                             <li><a href="/#about">About us</a></li>
                             <li><a href="/#work">Get started</a></li>
                         </ul>
                         <ul class="box">
                             <li class="link_name">Services</li>
-                            <li><a href="#">Graphic design</a></li>
-                            <li><a href="#">Handyman</a></li>
-                            <li><a href="#">Logo design</a></li>
-                            <li><a href="#">Banner design</a></li>
+                            <li><a href="/category">Graphic design</a></li>
+                            <li><a href="/category">Handyman</a></li>
+                            <li><a href="/category">Plumbing</a></li>
+                            <li><a href="/category">Landscaper</a></li>
+                            <li><a href="/category">And Many More</a></li>
+
                         </ul>
                         <ul class="box">
                             <li class="link_name">Account</li>
@@ -58,10 +60,10 @@ export default function Footer () {
                 </div>
                 <div class="bottom-details">
                     <div class="bottom_text">
-                        <span class="copyright_text">Copyright © 2021 <a href="#">Logo.</a>All rights reserved</span>
+                        <span class="copyright_text">Copyright © 2021 <a href="#">Multitasker.</a>All rights reserved</span>
                         <span class="policy_terms">
-                            <a href="#">Privacy policy</a>
-                            <a href="#">Terms & condition</a>
+                            <a href="/terms-and-conditions">Privacy policy</a>
+                            <a href="/terms-and-conditions">Terms & condition</a>
                         </span>
                     </div>
                 </div>

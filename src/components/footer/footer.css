@@ -1,4 +1,4 @@
-footer{
+footer {
     background: #d3d3d3;
 
   width: 100%;
@@ -7,8 +7,7 @@ footer{
 }
 footer::before{
   content: '';
-  position: absolute;
-  left: 0;
+  
   top: 100px;
   height: 1px;
   width: 100%;
