@@ -84,7 +84,7 @@ footer .content .link-boxes{
   justify-content: space-between;
 }
 footer .content .link-boxes .box{
-  width: calc(100% / 5 - 10px);
+  width: calc(100% / 3 - 10px);
 }
 .content .link-boxes .box .link_name{
   color: #3A7F12;

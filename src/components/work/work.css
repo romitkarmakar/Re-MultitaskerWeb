@@ -293,6 +293,9 @@ promotion
   .circles-gallery{
     display: none;
   }
+  .arrow{
+    display: none;
+  }
   .brute-css{
     display: flex;
     align-items: center;
@@ -315,8 +318,25 @@ promotion
     font-weight: 600;
     margin: 1.5rem 0;
   }
-  #work,
   #brute{
     height: auto !important;
   }
+  #work{
+    height: 210vh !important;
+  }
+}
+
+.arrow{
+  color: #63a228 !important;
+  position: absolute;
+  right: 10%;
+  font-size: 24;
+  font-weight: 600;
+}
+
+.arrow-btn{
+  color: #63a228 !important;
+  font-size: 24;
+  font-weight: 600;
+
 }

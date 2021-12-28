@@ -37,25 +37,12 @@ export default function Footer () {
                             <li><a href="/category">And Many More</a></li>
 
                         </ul>
-                        <ul class="box">
-                            <li class="link_name">Account</li>
-                            <li><a href="#">Profile</a></li>
-                            <li><a href="#">My account</a></li>
-                            <li><a href="#">Prefrences</a></li>
-                            <li><a href="#">Purchase</a></li>
-                        </ul>
-                        <ul class="box">
-                            <li class="link_name">Courses</li>
-                            <li><a href="#">HTML & CSS</a></li>
-                            <li><a href="#">JavaScript</a></li>
-                            <li><a href="#">Photography</a></li>
-                            <li><a href="#">Photoshop</a></li>
-                        </ul>
-                        <ul class="box input-box">
-                            <li class="link_name">Subscribe</li>
-                            <li><input type="text" placeholder="Enter your email" /></li>
-                            <li><input type="button" value="Subscribe" /></li>
-                        </ul>
+                        <div className="center-heading col-lg-6" >
+                            <h2>Learn More About <em>Multitasker</em></h2>
+                            <p class="">Multitasker helps you get more time back in your day! You can book tasks from a variety of categories to best suit your needs. If you don’t see a category please post your task or errand so our independent taskers can help.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
                 <div class="bottom-details">

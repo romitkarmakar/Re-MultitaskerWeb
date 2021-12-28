@@ -33,7 +33,7 @@ export default function Badges () {
                     <div className="row">
                         <div className="center-heading">
                             <h2>Multitasker And Its <em>Badges</em></h2>
-                            <p>By following these principles and providing a quality experience, you’ll keep Posters coming back to the platform and creating more earning opportunities while earning badges</p>                        </div>
+                            <p class="mx-5">By following these principles and providing a quality experience, you’ll keep Posters coming back to the platform and creating more earning opportunities while earning badges</p>                        </div>
                         <main>
                             <ul class="infoGraphic">
                                 { options.map( ( option ) => (

@@ -24,8 +24,7 @@ export default function Howitworks () {
                     <div class="text-center mb-5">
                         <div className="center-heading">
                             <h2>How It <em>Works?</em></h2>
-                            <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio.
-                                Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.</p>
+                            <p>Multitasker helps you get more time back in your day!</p>
                         </div>        </div>
                     <div class="row">
                         <div class="col-md-4">
