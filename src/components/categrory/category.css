@@ -4,7 +4,8 @@ body {
   margin: 0;
   padding: 0;
 }
-.container .main_header {
+.container {
+  padding: 0 !important;
 }
 .container .main_header__title {
   position: relative;
@@ -32,7 +33,7 @@ body {
 }
 .container .box, .container .add_box {
   position: relative;
-  height: 100px;
+  height: 200px;
   box-shadow: 1px 1px 5px rgba(85, 85, 85, 0.5);
   border-radius: 4px;
   margin-bottom: 7%;
@@ -48,16 +49,16 @@ body {
 .container .box img, .container .add_box img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
   border-radius: 8px;
   padding: 50px;
-  object-fit: contain;
 }
 .container .box .box__title, .container .add_box .box__title {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 25%;
   background-color: #f6f6f6;
   border-radius: 0 0 8px 8px;
   vertical-align: middle;
@@ -117,8 +118,11 @@ body {
     margin: 0 !important;
     margin-top: 50px !important;
   }
+  .container{
+    padding: 0 !important;
+  }
   .container .box, .container .add_box {
-    height: 200px;
+    height: 200px !important;
   }
   .container .box .box__title, .container .add_box .box__title {
     height: 25%;
