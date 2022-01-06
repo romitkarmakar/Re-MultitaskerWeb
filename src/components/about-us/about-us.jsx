@@ -19,8 +19,16 @@ export default function About () {
                         <div className="col-lg-8 offset-lg-2">
                             <div className="center-heading">
                                 <h2>Who are<em> We</em></h2>
-                                <p>Multitasker is an online marketplace that connects busy everyday people who need to outsource any task or run any errand with trusted local multitaskers who are ready to work and lend a helping hand. From weird and quirky, simple to complicated task, we can help you complete your residential, commercial or personal needs. Need a tradesman, cleaning service, handyman, marketing and design, admin services, furniture assembled, trucker, photographer, organiser, or someone to run an errand multitasker is here for you. Our commitment to our customers is to make sure they are happy when the task is completed. Our commitment to our taskers is to make sure they are paid in full for their skills and passions.
-
+                                <p>Multitasker is an online marketplace that connects busy everyday people who need
+                                    to outsource any task or run any errand with trusted local Taskers who are ready to
+                                    work and lend a helping hand. From weird and quirky to boring and mundane,
+                                    simple to complicated tasks, we can help you complete your residential,
+                                    commercial or personal needs. Need a tradesman, cleaning service, handyman,
+                                    marketing and design, admin services, furniture assembled, trucker, photographer,
+                                    organiser, or someone to run an errand? Multitasker is here for you. Our
+                                    commitment to our Customers/Clients is to make sure they are happy when the
+                                    task is completed. Our commitment to our Taskers is to make sure they are paid in
+                                    full for their skills, services and passions.
                                 </p>
                                 <div className="about-quality">
                                     <div className="quality-1">

@@ -24,8 +24,8 @@ export default function Contact () {
                 <div className="sm-no-pad container contact-body">
                     <div className="left mx-2">
                         <h3 className="mb-3 head">Get In Touch</h3>
-                        <p>At Multitasker we invite authors and freelancers to take part in this innovative and modern Idea so that we can make it user friendly.</p>
-                        <br />
+                        <p>At Multitasker we invite freelancers to take part in this innovative and
+                            modern idea so that we can make it user friendly.</p>  <br />
                         <ul className="ps-0">
                             <li>
                                 <div className="col-2 d-flex justify-content-center">
@@ -132,7 +132,7 @@ export default function Contact () {
                         </p>
                     </div>
                     <div className="btn-Container">
-                        <a href="/" className="contact-BTN ms-2 my-2 text-white">Get Started</a>
+                        <a href="/#mobile" className="contact-BTN ms-2 my-2 text-white">Get Started</a>
                     </div>
                 </div>
             </div>

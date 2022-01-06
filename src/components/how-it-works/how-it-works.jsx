@@ -60,7 +60,7 @@ export default function Howitworks () {
                                 </div>
                                 <div class="px-3 text-center pb-3">
                                     <img src="https://www.pngall.com/wp-content/uploads/8/Task-List-PNG-Free-Image.png" height="100" />
-                                    <h4>Get task done</h4>
+                                    <h4>Get task done by experts</h4>
                                     <p class="font-weight-light my-3">Get task done by experts. Making everyday life made Easier</p>
                                 </div>
                             </div>

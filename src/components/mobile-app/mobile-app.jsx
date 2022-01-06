@@ -15,7 +15,7 @@ export default function MobileApp () {
                         </div>
                         <div className="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
                             <p>
-                                Work with the pro, talented people at the most affordable price to get the most out of your time and cost using mobile apps.
+                                Work with talented people at the most affordable price to get the most out of your time and cost using mobile apps.
                                 <br />
                                 Download the Multitasker App and get the tasks you need completed with just a tap of the button. You can also browse available tasks and earn money wherever you go!
                             </p>

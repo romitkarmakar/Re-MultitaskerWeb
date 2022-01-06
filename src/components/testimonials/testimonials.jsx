@@ -62,8 +62,6 @@ export default function Testimonials () {
                         <div className="col-lg-8 offset-lg-2">
                             <div className="center-heading">
                                 <h2>What They Think <em>About Us</em></h2>
-                                <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio.
-                                    Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.</p>
                             </div>
                         </div>
                         <div className="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"

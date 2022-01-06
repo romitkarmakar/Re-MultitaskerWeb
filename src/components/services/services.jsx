@@ -12,7 +12,6 @@ export default function Services () {
                 <div className="container" style={ { backgroundColor: 'rgba( 250, 250, 250, 0.1 )', borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="center-heading">
                         <h2>How Can We <em>Help?</em></h2>
-                        <p>Largest globally spread network of talented people</p>
                     </div>
                     <div class="center-heading" id="toggle">
 
@@ -31,17 +30,16 @@ export default function Services () {
                                     <Lottie play loop animationData={ man1 } />
                                 </div>
                                 <div className="services-left-text">
-                                    <h2><em>Hire a Tasker</em></h2>
+                                    {/* <h2><em>Hire a Tasker</em></h2> */ }
                                     <ul>
                                         <li>
-                                            Find the task that you are happy to work
+                                            Post your Task for free
 
                                         </li>
                                         <li>
-                                            Get paid for the task you love doing
+                                            Hire experts from anywhere
                                         </li> <li>
-                                            Have full control of your own schedule
-
+                                            Pay as per your budget
                                         </li>
                                     </ul>
 
@@ -52,7 +50,7 @@ export default function Services () {
                             <div className="hemlo">
 
                                 <div className="services-right-text">
-                                    <h2><em>Become a Tasker</em></h2>
+                                    {/* <h2><em>Become a Tasker</em></h2> */ }
                                     <ul>
                                         <li>
 

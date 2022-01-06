@@ -37,14 +37,16 @@ export default function FAQ () {
                                                             <img src="https://cdn-icons-png.flaticon.com/512/137/137621.png" width="30" class="faq-icon" />
 
                                                             <i className="more-less glyphicon glyphicon-plus"></i>
-                                                            <h6>Why <em>Multitakser?</em>
+                                                            <h6>Why <em>Multitasker?</em>
                                                             </h6>
                                                         </a>
                                                     </h4>
                                                 </div>
                                                 <div id="collapseOne" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                                     <div className="panel-body">
-                                                        Multitasker helps you get more time back in your day! You can book tasks from a variety of categories to best suit your needs. If you don’t see a category please post your task or errand so our independent taskers can help.                                                    </div>
+                                                        Multitasker helps you get more time back in your day! You can book tasks from a
+                                                        variety of categories to best suit your needs. If you don’t see a category, please
+                                                        post your task or errand so our independent taskers can help.     </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -62,7 +64,9 @@ export default function FAQ () {
                                             </div>
                                             <div id="collapseTwo" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                                 <div className="panel-body">
-                                                    Multitasker is a cashless platform, so hiring a Tasker requires a valid credit card.Do not worry once a task has been confirmed payment is securely held on the multitasker platform and only released to the tasker after your task is complete.                                                    </div>
+                                                    Multitasker is a cashless platform, so hiring a Tasker requires a valid credit card. Do
+                                                    not worry - once a task has been confirmed payment is securely held on the
+                                                    multitasker platform and only released to the Tasker after your task is complete.</div>
                                             </div>
                                         </div>
 
@@ -79,7 +83,14 @@ export default function FAQ () {
                                             </div>
                                             <div id="collapseThree" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                                 <div className="panel-body">
-                                                    After booking your Tasker, be sure to send them a message through your task chat, to discuss your task in detail, ask any questions you might have, and make sure that you and your Tasker are on the same page. Confirm the date and time the task will take place so your Tasker can schedule your task.Multitasker helps you get more time back in your day! You can book tasks from a variety of categories to best suit your needs. If you don’t see a category please post your task or errand so our independent taskers can help.                                                    </div>
+                                                    After booking your Tasker, be sure to send them a message through your task chat,
+                                                    to discuss your task in detail, ask any questions you might have, and make sure
+                                                    that you and your Tasker are on the same page. Confirm the date and time the task
+                                                    will take place so your Tasker can schedule your task. Multitasker helps you get
+                                                    more time back in your day! You can book tasks from a variety of categories to best
+                                                    suit your needs. If you don’t see a category please post your task or errand so our
+                                                    independent Taskers can help.
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="panel panel-default">

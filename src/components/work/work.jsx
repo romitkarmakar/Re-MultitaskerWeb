@@ -10,7 +10,8 @@ export default function Work () {
                 <div className="container" id="brute" style={ { backgroundColor: 'rgba( 250, 250, 250, 0.1 )', borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="center-heading">
                         <h2>What We <em>Do?</em></h2>
-                        <p>Largest globally spread network of talented people</p></div>
+                        <p>A network of talented people making
+                            everyday life easier</p></div>
 
                 </div>
                 <div class="circles-gallery">
