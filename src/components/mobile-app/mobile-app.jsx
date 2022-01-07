@@ -10,7 +10,7 @@ export default function MobileApp () {
                 <div className="container" style={ { borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="row">
                         <div className="center-heading">
-                            <h2>On the <em>Move?</em></h2>
+                            <h2 style={ { paddingTop: '70px' } }>On the <em>Move?</em></h2>
                             <h3 class="text-center">Application Coming Soon</h3>
                         </div>
                         <div className="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
