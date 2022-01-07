@@ -14,6 +14,7 @@ export default function Work () {
                             everyday life easier</p></div>
 
                 </div>
+
                 <div class="circles-gallery">
                     <img src="https://cdn-icons-png.flaticon.com/512/3899/3899147.png" alt="Some Tech Picture" />
                     <img src="https://cdn-icons-png.flaticon.com/512/1949/1949291.png" alt="Some Tech Picture" />
