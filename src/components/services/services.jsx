@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Lottie from 'react-lottie-player'
 import './services.css'
 import man1 from "../../assets/man1.json"
-import man3 from "../../assets/man3.json"
+import man3 from "../../assets/person.json"
 
 export default function Services () {
     const [ selected, setSelected ] = useState( 0 )
@@ -65,8 +65,8 @@ export default function Services () {
                                         </li>
                                     </ul>
 
-                                </div> <div className="services-left-art">
-                                    <Lottie play loop animationData={ man3 } />
+                                </div> <div className="services-left-art player">
+                                    <Lottie play loop animationData={ man3 } width="300" height="400" />
                                 </div>
 
                             </div>
