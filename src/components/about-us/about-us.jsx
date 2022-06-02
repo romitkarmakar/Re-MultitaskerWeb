@@ -13,7 +13,7 @@ export default function About () {
     };
     return (
         <>
-            <section className="section" id="about">
+            <section className="section p-4 md:p-0" id="about">
                 <div className="container" style={ { borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">

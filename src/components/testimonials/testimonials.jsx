@@ -64,11 +64,11 @@ export default function Testimonials () {
                                 <h2>What They Think <em>About Us</em></h2>
                             </div>
                         </div>
-                        <div className="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
+                        <div className="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big px-4"
                             data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                             <OwlCarousel className="owl-carousel owl-theme" loop margin={ 20 } nav pagination { ...options } >
                                 { values.map( ( value ) => (
-                                    <div className="item service-item">
+                                    <div className="item service-item pb-8 md:pb-0">
                                         <div className="author">
                                             <i><img src={ value.img } className="rounded-circle" width="75" alt="Author One" /></i>
                                         </div>

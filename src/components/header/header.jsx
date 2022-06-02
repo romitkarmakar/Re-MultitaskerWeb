@@ -8,10 +8,8 @@ export default function Header () {
 
     return (
         <>
-
             <Navbar />
-
-            <div className="welcome-area mb-5" id="welcome">
+            <div className="welcome-area mb-5 p-4 md:p-0" id="welcome">
 
                 <div className="header-text">
                     <div className="container">

@@ -8,7 +8,7 @@ export default function Services () {
     const [ selected, setSelected ] = useState( 0 )
     return (
         <>
-            <section className="section" id="services">
+            <section className="section p-4 md:p-0" id="services">
                 <div className="container" style={ { backgroundColor: 'rgba( 250, 250, 250, 0.1 )', borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="center-heading">
                         <h2>How Can We <em>Help?</em></h2>

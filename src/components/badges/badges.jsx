@@ -28,7 +28,7 @@ export default function Badges () {
     ]
     return (
         <>
-            <section className="section" id="badges">
+            <section className="section p-4 md:p-0" id="badges">
                 <div className="container" style={ { borderTop: 'solid 2px green', paddingTop: '50px' } }>
                     <div className="row">
                         <div className="center-heading">
