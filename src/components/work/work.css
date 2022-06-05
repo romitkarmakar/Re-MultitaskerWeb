@@ -198,10 +198,8 @@ div.picture-container:nth-child(3) {
 .circles-gallery {
   position: relative;
   height: var(--size-pictureframe);
-  margin-left: calc(var(--size-pictureframe));
   padding: 0 30px;
   text-align: center;
-  margin-right: 100px;
   margin-top: 30px;
 }
 .circles-gallery > * {
