@@ -282,9 +282,6 @@ div.picture-container:nth-child(3) {
   .circles-gallery {
     display: none;
   }
-  .arrow {
-    display: none;
-  }
   .brute-css {
     display: flex;
     align-items: center;
@@ -320,10 +317,38 @@ div.picture-container:nth-child(3) {
   right: 10%;
   font-size: 24;
   font-weight: 600;
+  margin-top: 2rem;
 }
 
 .arrow-btn {
   color: #63a228 !important;
   font-size: 24;
   font-weight: 600;
+}
+
+.services-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.services-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .services-container {
+    flex-direction: column;
+  }
+
+  .services-item {
+    margin: 20px 0;
+  }
+}
+
+.services-item img {
+  width: 5rem;
 }
