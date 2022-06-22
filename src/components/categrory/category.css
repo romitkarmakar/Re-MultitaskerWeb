@@ -36,7 +36,6 @@ body {
 .container .box,
 .container .add_box {
   position: relative;
-  height: 200px;
   box-shadow: 1px 1px 5px rgba(85, 85, 85, 0.5);
   border-radius: 4px;
   margin-bottom: 7%;
@@ -130,10 +129,6 @@ body {
   .container {
     padding: 0 !important;
   }
-  .container .box,
-  .container .add_box {
-    height: 200px !important;
-  }
   .container .box .box__title,
   .container .add_box .box__title {
     height: 25%;
@@ -145,4 +140,13 @@ body {
   .container .add_box .add_box__title {
     top: 50%;
   }
+}
+
+.category-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.category-description {
+  text-align: center;
 }
