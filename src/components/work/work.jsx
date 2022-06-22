@@ -56,29 +56,6 @@ export default function Work() {
             <p>A network of talented people making everyday life easier</p>
           </div>
         </div>
-
-        {/* <div class="circles-gallery">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3899/3899147.png" alt="Some Tech Picture" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/1949/1949291.png" alt="Some Tech Picture" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995491.png" alt="Some Tech Picture" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/1518/1518965.png" alt="Some Architecture Picture" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995507.png" alt="Some Architecture Picture" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/3400/3400272.png" alt="Some Architecture Picture" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/2806/2806972.png" alt="Some Architecture Picture" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/1320/1320477.png" alt="Some Architecture Picture" />
-                </div> */}
-        {/* <div className="circles-gallery">
-                    <h6>Home cleaning</h6>
-                    <h6>Trucking</h6>
-                    <h6>Handyman</h6>
-                    <h6>Landscaper</h6>
-                    <h6>Plumbing</h6>
-                    <h6>Lifestyle</h6>
-                    <h6>Graphic</h6>
-                    <h6>Security</h6>
-
-                </div> */}
-
         <div>
           <div className="services-container">
             {services.map((service, index) => {

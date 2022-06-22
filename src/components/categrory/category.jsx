@@ -5,12 +5,9 @@ import ScrollReveal from 'scrollreveal'
 export default function Category () {
   ScrollReveal().reveal( '.box' )
   return (
-    <div id="category" className="">
-
-
+    <div id="category" className='main-box'>
       <div class="container">
         <div class="row pt-4">
-
           <div class=" col-lg-3 col-sm-6">
             <div class="box mb-3 m-2 m-2">
               <a href="#">

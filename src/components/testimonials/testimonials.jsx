@@ -5,30 +5,30 @@ import OwlCarousel from 'react-owl-carousel';
 export default function Testimonials () {
     const values = [
         {
-            img: "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg",
+            img: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             star: 4,
-            name: "John Doe",
-            title: "CEO, ABC Company",
-            comment: "looks like a great company, I am very happy with the service"
+            name: "Adam Davis",
+            title: "App User",
+            comment: "We love this company. They are very professional, punctual, and very responsive. I would recommend them to anyone."
         },
         {
-            img: "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg",
+            img: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             star: 5,
-            name: "John Doe",
-            title: "CEO, ABC Company",
-            comment: "looks like a great company, I am very happy with the service"
+            name: "Justin Jackson",
+            title: "App User",
+            comment: "Fast, Knowledgeable, and professional. Just what you want when your A/c dies in summer."
         }, {
-            img: "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg",
+            img: "https://www.eaclinic.co.uk/wp-content/uploads/2019/01/woman-face-eyes-1000x1000.jpg",
             star: 3,
-            name: "John Doe",
-            title: "CEO, ABC Company",
-            comment: "looks like a great company, I am very happy with the service"
+            name: "Dana Manning",
+            title: "App User",
+            comment: "They are always on time and friendly. I would highly recommend them to anyone."
         }, {
-            img: "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg",
+            img: "https://www.journeyofparenthood.com/wp-content/uploads/2021/06/32B32576-E2EA-41D6-99FF-B66F33F593CA-scaled.jpeg",
             star: 4,
-            name: "John Doe",
-            title: "CEO, ABC Company",
-            comment: "looks like a great company, I am very happy with the service"
+            name: "Mike Williams",
+            title: "App User",
+            comment: "These guy always do the most fantastic job. I have service my system every year."
         }
     ];
 
@@ -70,7 +70,7 @@ export default function Testimonials () {
                                 { values.map( ( value ) => (
                                     <div className="item service-item pb-8 md:pb-0">
                                         <div className="author">
-                                            <i><img src={ value.img } className="rounded-circle" width="75" alt="Author One" /></i>
+                                            <img src={ value.img } className="rounded-circle" alt="Author One" />
                                         </div>
                                         <div className="testimonial-content">
                                             <ul className="stars">

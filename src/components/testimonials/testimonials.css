@@ -58,8 +58,8 @@
 }
 
 #testimonials .author img {
-  max-width: 120px;
   margin-bottom: -60px;
+  max-width: 75px;
 }
 
 .owl-carousel .owl-nav button.owl-next span {
@@ -100,4 +100,12 @@
   .owl-carousel .owl-nav {
     display: none!important;
   }
+}
+
+
+.rounded-circle {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 999px;
 }
