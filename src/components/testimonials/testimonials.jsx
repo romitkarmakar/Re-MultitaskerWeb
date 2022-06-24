@@ -26,7 +26,7 @@ export default function Testimonials() {
       star: 3,
       name: "Dana Manning",
       title: "App User",
-      comment: "Can’t wait for Multitasker to launch ",
+      comment: "I will be one of the first to use this service.",
     },
     {
       img:
@@ -34,7 +34,7 @@ export default function Testimonials() {
       star: 4,
       name: "Mike Williams",
       title: "App User",
-      comment: "Can’t wait for Multitasker to launch.",
+      comment: "Can't wait for Multitasker to launch.",
     },
   ];
 
