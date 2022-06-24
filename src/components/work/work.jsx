@@ -61,8 +61,8 @@ export default function Work() {
             {services.map((service, index) => {
               return (
                 <div className="services-item" key={index}>
-                  <img src={service.image} alt="Some Tech Picture" />
-                  <h6>{service.name}</h6>
+                  <img src={service.image} alt="Some Tech Picture" className="pb-4" />
+                  <h6 className="text-center">{service.name}</h6>
                 </div>
               );
             })}

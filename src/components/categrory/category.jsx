@@ -109,6 +109,7 @@ export default function Category() {
                 <a href="#">
                   <img src={category.image} alt="" />
                   <h6 className="category-title">{category.name}</h6>
+                  <div className="divider" />
                   <div className="category-description">{category.description}</div>
                 </a>
               </div>
