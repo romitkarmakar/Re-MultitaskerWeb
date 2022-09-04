@@ -4,10 +4,10 @@ import Slider from "react-slick";
 
 export default function Partners () {
     const settings = {
-        slidesToShow: 6,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 3000,
         arrows: false,
         dots: false,
         pauseOnHover: false,
@@ -33,18 +33,13 @@ export default function Partners () {
                         <div className="col-lg-8 offset-lg-2">
                             <div className="center-heading">
                                 <h2>Our <em>Openings</em> </h2>
-                                <p style={{marginBottom: "30px"}}>Add Job Openings also</p>
+                                <h3 style={{marginBottom: "30px",textAlign: "center", fontSize: "18px"}}>Add Job Openings also</h3>
 
                                 <section className="customer-logos slider">
                                     <Slider rtl { ...settings }>
-                                        <div className="slide"><img alt="" src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg" /></div>
-                                        <div className="slide"><img alt="" src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg" /></div>
-                                        <div className="slide"><img alt="" src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg" /></div>
-                                        <div className="slide"><img alt="" src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg" /></div>
-                                        <div className="slide"><img alt="" src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg" /></div>
-                                        <div className="slide"><img alt="" src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg" /></div>
-                                        <div className="slide"><img alt="" src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg" /></div>
-                                        <div className="slide"><img alt="" src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg" /></div>
+                                        <div className="slide job"><div><p>Mechanic Job</p><p>$25</p></div></div>
+                                        <div className="slide job"><div><p>Handyman Job</p><p>$40</p></div></div>
+                                        <div className="slide job"><div><p>Trucking Job</p><p>$30</p></div></div>                                
                                     </Slider>
                                 </section>
                             </div>

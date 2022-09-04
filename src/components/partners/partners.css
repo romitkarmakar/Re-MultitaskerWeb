@@ -113,3 +113,17 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.job{
+    background-color: #8ec63e;
+    padding: 20px 0px;
+    width: 300px!important;   
+}
+
+.job p{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 0px;
+    margin: 0px!important;
+}
