@@ -33,6 +33,7 @@ export default function Partners () {
                         <div className="col-lg-8 offset-lg-2">
                             <div className="center-heading">
                                 <h2>Our <em>Openings</em> </h2>
+                                <p style={{marginBottom: "30px"}}>Add Job Openings also</p>
 
                                 <section className="customer-logos slider">
                                     <Slider rtl { ...settings }>

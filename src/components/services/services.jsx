@@ -4,33 +4,33 @@ import './services.css'
 import man1 from "../../assets/man1.json"
 import man3 from "../../assets/person.json"
 
-export default function Services () {
-    const [ selected, setSelected ] = useState( 0 )
+export default function Services() {
+    const [selected, setSelected] = useState(0)
     return (
         <>
             <section className="section p-4 md:p-0" id="services">
-                <div className="container" style={ { backgroundColor: 'rgba( 250, 250, 250, 0.1 )', borderTop: 'solid 2px green', paddingTop: '50px' } }>
+                <div className="container" style={{ backgroundColor: 'rgba( 250, 250, 250, 0.1 )', borderTop: 'solid 2px green', paddingTop: '50px' }}>
                     <div className="center-heading">
                         <h2>How Can We <em>Help?</em></h2>
                     </div>
                     <div class="center-heading" id="toggle">
 
-                        <a class="main-button-slider" onClick={ () => setSelected( 0 ) }>
-                            Hire a Tasker
+                        <a class="main-button-slider" onClick={() => setSelected(0)}>
+                            Post a job
                         </a>
-                        <a class="main-button-slider" onClick={ () => setSelected( 1 ) }>
-                            Become a Tasker
+                        <a class="main-button-slider" onClick={() => setSelected(1)}>
+                            Become a Taskers
                         </a>
                     </div>
                     <div className="row ">
 
-                        { ( selected === 0 ) && <div id="left">
+                        {(selected === 0) && <div id="left">
                             <div className="hemlo">
                                 <div className="services-left-art">
-                                    <Lottie play loop animationData={ man1 } />
+                                    <Lottie play loop animationData={man1} />
                                 </div>
                                 <div className="services-left-text">
-                                    {/* <h2><em>Hire a Tasker</em></h2> */ }
+                                    {/* <h2><em>Hire a Tasker</em></h2> */}
                                     <ul>
                                         <li>
                                             Post your Task for free
@@ -45,12 +45,12 @@ export default function Services () {
 
                                 </div>
                             </div>
-                        </div> }
-                        { ( selected === 1 ) && <div id="right">
+                        </div>}
+                        {(selected === 1) && <div id="right">
                             <div className="hemlo">
 
                                 <div className="services-right-text">
-                                    {/* <h2><em>Become a Tasker</em></h2> */ }
+                                    {/* <h2><em>Become a Tasker</em></h2> */}
                                     <ul>
                                         <li>
 
@@ -66,11 +66,11 @@ export default function Services () {
                                     </ul>
 
                                 </div> <div className="services-left-art player">
-                                    <Lottie play loop animationData={ man3 } width="300" height="400" />
+                                    <Lottie play loop animationData={man3} width="300" height="400" />
                                 </div>
 
                             </div>
-                        </div> }
+                        </div>}
                     </div>
                 </div>
             </section>

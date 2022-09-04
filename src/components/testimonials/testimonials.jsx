@@ -88,13 +88,6 @@ export default function Testimonials() {
               >
                 {values.map((value) => (
                   <div className="item service-item pb-8 md:pb-0">
-                    <div className="author">
-                      <img
-                        src={value.img}
-                        className="rounded-circle"
-                        alt="Author One"
-                      />
-                    </div>
                     <div className="testimonial-content">
                       <ul className="stars">
                         <li>
