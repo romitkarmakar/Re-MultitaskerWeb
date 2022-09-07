@@ -13,7 +13,7 @@ export default function Footer () {
                             {/* <span class="logo_name">Multitasker</span> */ }
                         </div>
                         <div class="media-icons">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/multitaskerbm/?ref=page_internal"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
