@@ -13,14 +13,14 @@ export default function Partners () {
         pauseOnHover: false,
         centerMode: false,
         responsive: [ {
-            breakpoint: 768,
+            breakpoint: 1000,
             settings: {
-                slidesToShow: 4
+                slidesToShow: 1
             }
         }, {
-            breakpoint: 520,
+            breakpoint: 700,
             settings: {
-                slidesToShow: 3
+                slidesToShow: 1
             }
         } ]
     };
