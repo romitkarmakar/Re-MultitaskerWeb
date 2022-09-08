@@ -26,7 +26,7 @@ const categories = [
   {
     image: "https://cdn-icons-png.flaticon.com/512/1518/1518965.png",
     name: "Landscaper",
-    subname: "Landscaper is the professional service of providing gardening assistance to customers.",
+    subname: "Cut grass, hedges trimming, create small garden, yard clean up, weed/shrub removal, vacation plant watering, patio cleaning, power washing, etc.",
     description:
       "Landscaper is the professional service of providing assistance to customers.",
   },
@@ -40,9 +40,9 @@ const categories = [
   {
     image: "https://cdn-icons-png.flaticon.com/512/3400/3400272.png",
     name: "Customization",
-    subname: "Customization is the process of modifying a product according to an individuals specification or preference.",
+    subname: "Custom cups, custom crocs, alcohol bottles, keychains, t-shirts, sneakers etc.",
     description:
-      "Lifestyle is the process of providing assistance to customers.",
+      "Customization is the process of modifying a product according to an individuals specification or preference.",
   },
   {
     image: "https://cdn-icons-png.flaticon.com/512/2806/2806972.png",
@@ -82,7 +82,7 @@ const categories = [
   {
     image: "https://cdn-icons-png.flaticon.com/512/3081/3081288.png",
     name: "Run Errand",
-    subname: "let Multitasker do the things you don’t have time for",
+    subname: "Let Multitasker do the things you don’t have time for",
     description:
       "Run errands is the mundane and time consuming tasks that can be outsourced to taskers.",
   },
@@ -94,7 +94,7 @@ const categories = [
   {
     image: "https://cdn-icons-png.flaticon.com/512/3209/3209094.png",
     name: "Sitter",
-    subname: " baby, pet or house sitter",
+    subname: "Baby, pet or house sitter",
     description: "Sitter is the service provided  for the care of children, pets and home while clients are abroad or at other events.",
   },
   {
