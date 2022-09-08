@@ -100,14 +100,14 @@ const categories = [
   {
     image: "https://cdn-icons-png.flaticon.com/512/2919/2919733.png",
     name: "Business",
-    subname: "Notarize documents, bookkeeping/accounting, business plans, data entry, virtual administrator, personal assistant, mock job interview, life coach, online tutoring, etc.",
+    subname: "Notarize documents, bookkeeping / accounting, business plans, data entry, virtual administrator, personal assistant, mock job interview, life coach, online tutoring, etc.",
     description: "Section is the process of providing assistance to customers.",
   },
   {
     image: "https://cdn-icons-png.flaticon.com/512/1182/1182761.png",
     name: "Anything",
     subname: "Heavy lifting, hang curtains, organizing service, cooking lessons etc",
-    description: "ASAP is the process of providing assistance to customers.",
+    description: "Anything is the process of providing assistance to customers.",
   },
 ];
 
